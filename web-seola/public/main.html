@@ -3,17 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
 <title>도담도담</title>
-<style> /* 추후에는 html 내부가 아닌 css파일에 작성하는 것이 목표. */
-html {
-  background: url('./images/background.jpg') no-repeat center center fixed; /* 가운데 고정에 이미지가 반복되지 않도록 설정 */
-  -webkit-background-size: cover; /* 사파리에서의 배경 사이즈 */
-  -moz-background-size: cover; /* 파이어폭스에서의 배경 사이즈 */
-  -o-background-size: cover; /* 오페라에서의 배경 사이즈 */
-  background-size: cover; /* 기본 배경 사이즈 */
-}
-</style>
+<!-- Disable favicon requests -->
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;,">
+
+    <!-- Load Interactive Canvas JavaScript -->
+    <script src="https://www.gstatic.com/assistant/interactivecanvas/api/interactive_canvas.min.js"></script>
+
+    <!-- Load PixiJS for graphics rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.7/pixi.min.js"></script>
+
+    <!-- Load Stats.js for fps monitoring -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
+
+    <!-- Load custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <div style="text-align:center; "> <!-- div는 7개정도 속성이 있어 같이 사용한다. 여기선 style속성으로 텍스트 정렬 방향을 지정했다. -->
