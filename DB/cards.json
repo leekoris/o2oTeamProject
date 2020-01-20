@@ -1,0 +1,185 @@
+{
+  "number_cards" : {
+    "counts" : {
+      "eight" : {
+        "back" : "count8_text.png",
+        "front" : "count8.png"
+      },
+      "five" : {
+        "back" : "count5_text.png",
+        "front" : "count5.png"
+      },
+      "four" : {
+        "back" : "count4_text.png",
+        "front" : "count4.png"
+      },
+      "nine" : {
+        "back" : "count9_text.png",
+        "front" : "count9.png"
+      },
+      "one" : {
+        "back" : "count1_text.png",
+        "front" : "count1.png"
+      },
+      "seven" : {
+        "back" : "count7_text.png",
+        "front" : "count7.png"
+      },
+      "six" : {
+        "back" : "count6_text.png",
+        "front" : "count6.png"
+      },
+      "ten" : {
+        "back" : "count10_text.png",
+        "front" : "count10.png"
+      },
+      "three" : {
+        "back" : "count3_text.png",
+        "front" : "count3.png"
+      },
+      "two" : {
+        "back" : "count2_text.png",
+        "front" : "count2.png"
+      }
+    },
+    "numbers" : [ null, {
+      "back" : "1_text.png",
+      "front" : "1.png"
+    }, {
+      "back" : "2_text.png",
+      "front" : "2.png"
+    }, {
+      "back" : "3_text.png",
+      "front" : "3.png"
+    }, {
+      "back" : "4_text.png",
+      "front" : "4.png"
+    }, {
+      "back" : "5_text.png",
+      "front" : "5.png"
+    }, {
+      "back" : "6_text.png",
+      "front" : "6.png"
+    }, {
+      "back" : "7_text.png",
+      "front" : "7.png"
+    }, {
+      "back" : "8_text.png",
+      "front" : "8.png"
+    }, {
+      "back" : "9_text.png",
+      "front" : "9.png"
+    }, {
+      "back" : "10_text.png",
+      "front" : "10.png"
+    } ]
+  },
+  "word_cards" : {
+    "animals" : {
+      "cat" : {
+        "back" : "cat_text.png",
+        "front" : "cat.png"
+      },
+      "crocodile" : {
+        "back" : "crocodile_text.png",
+        "front" : "crocodile.png"
+      },
+      "deer" : {
+        "back" : "deer_text.png",
+        "front" : "deer.png"
+      },
+      "dog" : {
+        "back" : "dog_text.png",
+        "front" : "dog.png"
+      },
+      "elephant" : {
+        "back" : "elephant_text.png",
+        "front" : "elephant.png"
+      },
+      "horse" : {
+        "back" : "horse_text.png",
+        "front" : "horse.png"
+      },
+      "raccoon" : {
+        "back" : "raccoon_text.png",
+        "front" : "raccoon.png"
+      },
+      "sheep" : {
+        "back" : "sheep_text.png",
+        "front" : "sheep.png"
+      },
+      "snake" : {
+        "back" : "snake_text.png",
+        "front" : "snake.png"
+      },
+      "squirrel" : {
+        "back" : "squirrel_text.png",
+        "front" : "squirrel.png"
+      }
+    },
+    "family" : {
+      "baby" : {
+        "back" : "baby_text.png",
+        "front" : "baby.png"
+      },
+      "dad" : {
+        "back" : "dad_text.png",
+        "front" : "dad.png"
+      },
+      "family" : {
+        "back" : "family_text.png",
+        "front" : "family.png"
+      },
+      "grandma" : {
+        "back" : "grandma_text.png",
+        "front" : "grandma.png"
+      },
+      "grandpa" : {
+        "back" : "grandpa_text.png",
+        "front" : "grandpa.png"
+      },
+      "mom" : {
+        "back" : "mom_text.png",
+        "front" : "mom.png"
+      }
+    },
+    "fruits" : {
+      "apple" : {
+        "back" : "apple_text.png",
+        "front" : "apple.png"
+      },
+      "banana" : {
+        "back" : "banana_text.png",
+        "front" : "banana.png"
+      },
+      "grape" : {
+        "back" : "grape_text.png",
+        "front" : "grape.png"
+      },
+      "lemon" : {
+        "back" : "lemon_text.png",
+        "front" : "lemon.png"
+      },
+      "mandarin" : {
+        "back" : "mandarin_text.png",
+        "front" : "madarin.png"
+      },
+      "melon" : {
+        "back" : "melon_text.png",
+        "front" : "melon.png"
+      },
+      "pear" : {
+        "back" : "pear_text.png",
+        "front" : "pear.png"
+      },
+      "persimmon" : {
+        "back" : "persimmon_text.png",
+        "front" : "persimmon.png"
+      },
+      "strawberry" : {
+        "back" : "strawberry_text.png",
+        "front" : "strawberry.png"
+      }
+    }
+  }
+}
