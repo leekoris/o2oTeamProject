@@ -7,13 +7,17 @@ Click me</button>
 <p id="demo"></p>
 
 <script>
+
 function myFunction() {
   document.getElementById("demo").innerHTML =
   <div class="back">
     <img src="./images/포도글씨.png" alt="포도" > </div>
 }
 
-
+function play(){
+     var audio = document.getElementById("audio");
+     audio.play();
+}
 var picture = new Array();
 var word = new Array();
 var i;

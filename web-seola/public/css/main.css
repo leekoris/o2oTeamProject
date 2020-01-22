@@ -81,6 +81,16 @@
     height:auto;
   }
 
+  .repeat {
+    position: fixed;
+    left: 5%;
+    bottom: 10%;
+    padding: 1px 40px 30px 1px;
+    text-align: left;;
+    max-width :6%;
+    height:auto;
+  }
+
   .parent{
       width: 90%;
       margin: 10px auto;

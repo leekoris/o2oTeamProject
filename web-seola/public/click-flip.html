@@ -1,52 +1,26 @@
 <html>
     <head>
       <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <style type="text/css">
-
-        </style>
-
-        <script>
-          /*
-            // 카드 배치
-            function setTable(){
-                cards = [
-                '1.jpg','1.jpg', // 나옹이
-                '2.jpg','2.jpg', // 파이리
-                '3.PNG','3.PNG', // 꼬부기
-                '4.jpg','4.jpg', // 이상해씨
-                '5.png','5.png', // 어니부기
-                '6.PNG','6.PNG', // 잉어킹
-                '7.png','7.png', // 푸린
-                '8.png','8.png', // 피카츄
-                '9.png','9.png', // 별가사리
-                '10.jpg','10.jpg', // 거북왕
-                '11.jpg','11.jpg', // 고라파덕
-                '12.png','12.png' // 리자드
-                ];
-                var cardTableCode = '<tr>';
-                for(var i=0;i<24;i++) {
-                    if(i>0 && i%6 == 0){
-                        cardTableCode += '</tr><tr>';
-                    }
-                    var idx = generateRandom(0,23-i);
-                    var img = cards.splice(idx,1);
-
-                    cardTableCode += '<td id="card'+i+'"><img src="/study/tmp/common/images/'+img+'"><span>?</span></td>';
-                }
-                cardTableCode += '</tr>';
-                $('#cardTable').html(cardTableCode);
-            }
-*/
-
-        </script>
+      <audio id='audio_play' src='./sound/right.mp3'></audio>
+<script type="text/javascript">
+function play() {
+  var audio = document.getElementById('audio_play');
+  if (audio.paused) {
+      audio.play();
+  }else{
+      audio.pause();
+      audio.currentTime = 0
+  }
+}
+</script>
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
       <label>
     <input type="checkbox"  />
     <div class="card">
-        <div class="front">
-          <img src="./images/포도사진.png" alt="포도" style="max-width:100%;height:auto;">
+        <div class="front" onclick="play()">
+          <img src="./images/포도사진.png"  alt="포도" style="max-width:100%;height:auto;">
         </div>
         <div class="back">
           <img src="./images/포도글씨.png" alt="포도" style="max-width:100%;height:auto;">
